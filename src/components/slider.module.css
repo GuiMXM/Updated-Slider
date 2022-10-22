@@ -1,0 +1,100 @@
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-items: center;
+    max-width: 51vw;
+    
+    
+}
+
+
+.imgwrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: 0.5s;
+    max-width: 50vw;
+    gap: 20px;
+    padding-right: 10px;
+    width: fit-content;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    
+}
+
+
+
+.code16{
+    padding: 10px 5px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border: 2px solid #efefef;
+    width: 10rem;
+    height: 2rem;
+    cursor: text;
+    border-radius: 5px;
+    
+    
+}
+
+
+.code16:hover{
+  border: 2px solid black;
+}
+
+.Erro{
+    text-decoration: underline;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+
+.Ok {
+    display: flex;
+    padding: 8px;
+    width: 40;
+    height: 30px;
+    background-color: green;
+    color: aliceblue;
+}
+
+
+button {
+     width: 8em;
+     height: 2em;
+     background-color: rgb(76, 119, 116);
+     color: white;
+     border-radius: 7px;
+     border: solid 2px black;
+     transition: .5s;
+     margin-bottom: 5px;
+}
+
+button:hover{
+    background-color: rgb(17, 80, 64);
+    
+}
+
+
+button:active{
+    transition: .3s;
+    scale: 0.9;
+   
+}
+
+.p{
+    width: 10em;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+
+p{
+  margin-top: 5px;
+  text-align: start;
+}
+
+
